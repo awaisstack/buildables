@@ -220,3 +220,4 @@
 {"timestamp":"2025-10-06T16:30:59.603033Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_run_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-10-06T16:31:34.181485Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_run_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
 {"timestamp":"2025-10-06T16:32:23.685135Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_run_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-06T16:32:53.994474Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_run_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
