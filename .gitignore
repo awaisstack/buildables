@@ -1,0 +1,9 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Airflow logs
+logs/
+
+# Optional: environment files
+.env
