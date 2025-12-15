@@ -1,4 +1,4 @@
-# 🚀 Buildables Data Engineering Fellowship Portfolio
+# Buildables Data Engineering Fellowship Portfolio
 
 **Author:** Muhammad Awais  
 **Role:** Data Engineer | ETL Specialist | Infrastructure Lead  
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Executive Summary
+## Executive Summary
 This repository documents my intensive journey through the **Buildables Data Engineering Fellowship**. Over the course of the program, I transitioned from writing raw SQL queries to architecting scalable, containerized data platforms. 
 
 The portfolio demonstrates proficiency in **Legacy ETL (SSIS)**, **Modern Stacks (Airflow, Docker, MinIO)**, and **Big Data Architecture**. It culminates in **SynthCart**, a production-grade platform where I led the infrastructure design for a cross-functional team.
@@ -23,14 +23,14 @@ The portfolio demonstrates proficiency in **Legacy ETL (SSIS)**, **Modern Stacks
 **Goal:** Build a Medallion Architecture platform to process e-commerce data for BI dashboards.
 
 **Key Achievements:**
-* 🏗️ **Infrastructure:** Deployed the complete **Docker** environment, configuring Airflow, MinIO, PostgreSQL, and Redis to run seamlessly as a distributed system.
-* ⭐ **Gold Layer (Owner):** Engineered the Star Schema, creating business-ready Fact (`fact_orders`) and Dimension (`dim_customers`, `dim_products`) tables.
-* 🧹 **Silver Layer (Co-Developer):** Collaborated on **PySpark** jobs to clean raw data, handling missing values and enforcing schema validation to achieve a **98.5% data quality score**.
-* 🔄 **Orchestration:** Designed automated Airflow DAGs to manage the dependencies between the Bronze, Silver, and Gold layers.
+* **Infrastructure:** Deployed the complete **Docker** environment, configuring Airflow, MinIO, PostgreSQL, and Redis to run seamlessly as a distributed system.
+* **Gold Layer (Owner):** Engineered the Star Schema, creating business-ready Fact (`fact_orders`) and Dimension (`dim_customers`, `dim_products`) tables.
+* **Silver Layer (Co-Developer):** Collaborated on **PySpark** jobs to clean raw data, handling missing values and enforcing schema validation to achieve a **98.5% data quality score**.
+* **Orchestration:** Designed automated Airflow DAGs to manage the dependencies between the Bronze, Silver, and Gold layers.
 
 ---
 
-## 🛠️ Weekly Roadmap & Technical Deep Dive
+## Weekly Roadmap & Technical Deep Dive
 
 ### 🔹 Phase 1: Foundations (SQL & Python)
 
