@@ -1,0 +1,10 @@
+# --- Block Deep Logs (Fixes "Filename too long") ---
+**/logs/
+**/airflow/logs/
+**/tmp/
+
+# --- Block System Junk ---
+__pycache__/
+*.pyc
+.env
+.venv
