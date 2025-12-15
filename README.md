@@ -19,13 +19,14 @@ The portfolio demonstrates proficiency in **Legacy ETL (SSIS)**, **Modern Stacks
 ## 🏆 Capstone Project: SynthCart Platform
 > **📂 Location:** [`Week 7-12 Final_Project_SynthCart`](./Week%207-12%20Final_Project_SynthCart)
 
-**Role:** Lead Infrastructure Engineer & Gold Layer Architect  
+**Role:** Lead Infrastructure Engineer, Gold Layer Architect & Silver Layer Co-Developer  
 **Goal:** Build a Medallion Architecture platform to process e-commerce data for BI dashboards.
 
 **Key Achievements:**
-* 🏗️ **Infrastructure:** Deployed a fully containerized stack (**Docker Compose**) integrating MinIO (Data Lake), Postgres (Warehouse), and Airflow (Orchestrator).
-* 🔄 **Orchestration:** Designed DAGs to automate the flow from Bronze (Raw) $\to$ Silver (Cleaned via Spark) $\to$ Gold (Star Schema).
-* ⭐ **Gold Layer:** Engineered Fact and Dimension tables (`fact_orders`, `dim_customers`) enabling the Analytics team to build a 7-page Power BI dashboard.
+* 🏗️ **Infrastructure:** Deployed the complete **Docker** environment, configuring Airflow, MinIO, PostgreSQL, and Redis to run seamlessly as a distributed system.
+* ⭐ **Gold Layer (Owner):** Engineered the Star Schema, creating business-ready Fact (`fact_orders`) and Dimension (`dim_customers`, `dim_products`) tables.
+* 🧹 **Silver Layer (Co-Developer):** Collaborated on **PySpark** jobs to clean raw data, handling missing values and enforcing schema validation to achieve a **98.5% data quality score**.
+* 🔄 **Orchestration:** Designed automated Airflow DAGs to manage the dependencies between the Bronze, Silver, and Gold layers.
 
 ---
 
